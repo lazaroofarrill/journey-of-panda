@@ -13,4 +13,12 @@ link_directories(${PANDA_LIB})
 
 
 add_executable(c___lab1 main.cpp)
-target_link_libraries(c___lab1 "panda" "p3dtool")
+target_link_libraries(c___lab1
+        "p3framework"
+        "panda"
+        "pandafx"
+        "pandaexpress"
+        "p3dtoolconfig"
+        "p3dtool"
+        "p3direct"
+        "pthread")
